@@ -1,0 +1,10 @@
+HTTrack3.49-2 launched on Tue, 05 Mar 2019 07:55:36 at http://dhsprogramming.com/
+(winhttrack http://dhsprogramming.com/ -O "/home/fuzzy/websites/DHSprogrammingclub" -%v )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+07:59:38	Error: 	"Not Found" (404) at link dhsprogramming.com/filePortal.html (from dhsprogramming.com/)
+08:06:20	Warning: 	file not stored in cache due to bogus state (broken size, expected 7120033 got 2108568): dhsprogramming.com/ElOtro/video/static.mp4

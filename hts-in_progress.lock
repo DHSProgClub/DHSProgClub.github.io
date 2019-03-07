@@ -1,0 +1,7 @@
+Mirror in progress since Tue, 05 Mar 2019 07:55:36 .. please wait!
+winhttrack http://dhsprogramming.com/ -O "/home/fuzzy/websites/DHSprogrammingclub" -%v 
+To pause the engine: create an empty file named 'hts-stop.lock'
+PID=6448
+UID=1000
+GID=1000
+START=1551790536
