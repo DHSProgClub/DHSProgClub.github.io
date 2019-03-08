@@ -1,0 +1,146 @@
+h1{
+	text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+	opacity: .75;
+	transition: all 1s;
+}
+
+a {
+	color: #6699FF;
+	text-decoration: none;
+	transition: all .5s;
+}
+
+a:hover {
+	color: #3366FF;
+	text-decoration: none;
+}
+
+.media_block{
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	max-width: 100%;
+}
+
+img, video, iframe{
+	padding-bottom: .75em;
+	max-width: 100$;
+}
+
+.caption {
+	color: #3385D6;
+	text-align: center;
+	font-style: italic;
+	font-size: 16px;
+}
+
+.quote {
+	color: #5373A7;
+	text-align: center;
+	font: "Georgia", serif;
+}
+
+.blueText {
+	color: #09F;
+	font-family: serif;
+}
+
+.intro-text{
+	opacity: .5;
+	opacity: .75;
+	text-shadow: -2px 1px 3px rgba(0, 0, 0, 1);
+	transition: all 1s;
+}
+
+.content-section{
+	box-shadow: inset 0px 0px 35px 6px rgba(0,0,0,0.29);
+}
+
+.contentBackground{
+	background: url(../img/darth_stripe.png);
+}
+
+
+.btn {
+  font-family: Georgia;
+  background: none;
+  color: #fff;
+  font-size: 30px;
+  padding: 10px 40px 10px 40px;
+  border: solid #fff 1px;
+  text-decoration: none;
+  border-radius: 0px;
+  transition: all 1s;
+}
+
+.btn:hover {
+  color: #000;
+  border: solid #000 1px;
+  text-decoration: none;
+}
+
+nav a::before,
+nav a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
+
+nav a::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+
+nav a::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+
+nav a:hover::before,
+nav a:hover::after,
+nav a:focus::before,
+nav a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}
+
+nav a:hover{
+	color: #fff;
+}
+
+.BigLetter {
+	color: #09F;
+	line-height: normal;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 3em;
+	font-weight: bold;
+	
+	-webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+    animation: neon2 1.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+  }
+}
+
+
+
+
+//Navbar Link Animation  Credits tympanus.net
+//Neon Credits http://codepen.io/NobodyRocks/pen/qzfoc
+//Background Credits to Subtle Textures

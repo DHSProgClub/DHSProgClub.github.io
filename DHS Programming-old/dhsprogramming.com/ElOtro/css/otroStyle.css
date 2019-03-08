@@ -1,0 +1,105 @@
+body{
+	background:black;
+}
+
+#title{
+	margin: 7em auto;
+	display block;
+}
+
+#start{
+	text-align: center;
+	text-decoration: none;
+	display:block;
+	font-size: 6em;
+	font-family: "Times New Roman", Times, serif;
+	color: #228DFF;
+	-webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+	opacity: .5;
+}
+
+#start:hover{
+	-webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+    animation: neon2 1.5s ease-in-out infinite alternate;
+	-webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+	opacity: 1;
+}
+
+@-webkit-keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+  }
+}
+
+#static{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	overflow: hidden;
+	z-index: -100;
+	display: none;
+}
+
+.dialog{
+	display:none;
+	position: absolute;
+	font-size: 3em;
+	color: #fff;
+	opacity: .95;
+	max-width: 75%;
+}
+
+.dialogLeft{
+	text-align: left;
+	left: .3em;
+}
+
+.dialogRight{
+	text-align: right;
+	right: .3em;
+}
+
+.dialogCenter{
+	text-align: center;
+	margin-top: 3em;
+	left: 50%;
+    transform: translate(-50%, 0);
+	font-size: 6em;
+}
+
+.borges{
+	display:none;
+	position: absolute;
+	bottom: 0;
+	opacity: .40;
+}
+
+#borges1{
+	left: 0;
+	animation: borgesAnim1 7s ease 0s infinite alternate;
+}
+
+#borges2{
+	right: 0;
+	animation: borgesAnim2 7s ease 0s infinite alternate;
+}
+
+@keyframes borgesAnim1{
+	from {opacity: .4;}
+	to {opacity: .2;}
+}
+
+@keyframes borgesAnim2{
+	from {opacity: .4;}
+	to {opacity: .60;}
+}

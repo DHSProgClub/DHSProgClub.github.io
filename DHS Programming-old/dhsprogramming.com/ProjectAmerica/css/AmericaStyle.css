@@ -1,0 +1,301 @@
+*{
+    -webkit-touch-callout: none;
+   -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body{
+    background: url(../img/HomeInTheWoods.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.topContainer{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+}
+
+.score{
+    background: rgba(255, 255, 255, .5);
+    float: left;
+    padding: .4em;
+    width: 10%;
+}
+
+.time{
+    background: rgba(255, 255, 255, .5);
+    float: right;
+    padding: .4em;
+    width: 10%;
+    left: 100%;
+}
+
+.eventName{
+    background: rgba(255, 255, 255, .5);
+    margin: 0 auto;
+    padding: .4em;
+    width: 20%;
+}
+
+.eventText{
+    font-family: serif;
+}
+
+.option{
+    width: 10%;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    transition: box-shadow 1s;
+    position: absolute;
+    z-index: 1;
+}
+
+.option:hover{
+    cursor: pointer;
+}
+
+.floating{
+    animation-name: float;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; 
+    animation-direction: alternate;
+    animaton-timing-function: linear;
+}
+
+.ui-draggable-dragging{
+    animation: none;
+}
+
+.optionA{
+    background: rgba(255, 20, 40, .7);
+}
+
+.optionB{
+    background: rgba(0, 55, 255, .7);
+}
+
+.optionA:hover{ 
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(255,255,255,1);
+    box-shadow: 0px 0px 15px 2px rgba(255,255,255,1);
+}
+
+.optionB:hover{
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(255,255,255,1);
+    box-shadow: 0px 0px 15px 2px rgba(255,255,255,1);
+}
+
+.optionText{
+    font-size: 1.2em;
+}
+
+.bottomContainer{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    width: 100%;
+    height: 15%;
+    background: rgba(255, 255, 255, .5);
+    position: fixed;
+    bottom: 0%;
+
+}
+
+#questionBox{
+    width: 100%;
+    border: none;
+    height:100%;
+}
+
+.question1{
+    text-align: center;
+    width: 25%;
+}
+
+.question2{
+    text-align: center;
+    width: 25%;
+}
+
+
+.answerBox{
+    width: 75%;
+    height: 95%;
+    padding: .2em;
+    margin: 1em;
+    transition: box-shadow 0.2s;
+}
+
+.answerBox1{
+    background: rgba(235, 0, 0, .5);
+    transition: border-radius .5s;
+}
+
+.answerBox2{
+    background: rgba(0, 0, 255, .5);
+    transition: border-radius .5s;
+}
+
+.answerBox1Active{
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(255,255,255,1);
+    box-shadow: 0px 0px 15px 2px rgba(255,255,255,1);
+    border-radius: 1em;
+    height: 105%;
+
+}
+.answerBox2Active{
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(255,255,255,1);
+    box-shadow: 0px 0px 15px 2px rgba(255,255,255,1);
+    border-radius: 1em;
+    height: 105%;
+
+}
+.answerBox1Dropped{
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(255,255,255,1);
+    box-shadow: 0px 0px 15px 2px rgba(255,255,255,1);
+    height: 105%;
+    border-radius: 1em;
+    
+}
+.answerBox2Dropped{
+    height: 105%;
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(255,255,255,1);
+    box-shadow: 0px 0px 15px 2px rgba(255,255,255,1);
+    border-radius: 1em;
+}
+
+.title{
+    font-size: 8em;
+    color: #181818;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.buttonOption{
+    width: 15%;
+    border-radius: 1em;
+    background: rgba(255, 255, 255, .5);
+    margin: 2em;
+    padding: .5em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    transition: box-shadow .5s;
+}
+
+.buttonOption:hover{
+    -webkit-box-shadow: 0px 0px 48px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 48px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 48px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+.buttonText{
+    font-size: 1.5em;
+}
+
+.settingsBox{
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1em;
+    background: rgba(255, 255, 255, .5);
+    padding: .6em;
+}
+
+label{
+    font-size: 1.5em;
+    color: #282828;
+}
+
+.settingsHeader{
+    font-size: 1.8em;
+    border-bottom: 1px solid #000;
+    color: #000;
+}
+
+input[type=checkbox]{
+    transform: scale(1.4);
+}
+
+input[type=radio]{
+    transform: scale(1.4);
+}
+
+.goButton{
+    width: 10%;
+    border-radius: 1em;
+    background: rgba(255, 255, 255, .5);
+    margin: 2em;
+    padding: .001em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    transition: .5s;
+}
+.titleContainer{
+    background: rgba(255, 255, 255, .7);
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    border-radius: 1em;
+
+}
+
+.goButton:hover{
+    -webkit-box-shadow: 0px 0px 48px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 48px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 48px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+.startButton{
+    width: 15%;
+    border-radius: 1em;
+    background: rgba(255, 255, 255, .5);
+    margin: 2em;
+    padding: .5em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    transition: box-shadow .5s;
+}
+
+.startButton:hover{
+    -webkit-box-shadow: 0px 0px 48px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 48px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 48px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+.startText{
+    font-size:2em;
+}
+
+@keyframes float{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-1.5em);
+    }
+}
