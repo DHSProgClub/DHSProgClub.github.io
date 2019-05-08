@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Voltorb</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+
+        <script src='lib/quintus.js'></script>
+        <script src='lib/quintus_sprites.js'></script>
+        <script src='lib/quintus_scenes.js'></script>
+        <script src='lib/quintus_input.js'></script>
+        <script src='lib/quintus_anim.js'></script>
+        <script src='lib/quintus_2d.js'></script>
+        <script src='lib/quintus_touch.js'></script>
+        <script src='lib/quintus_ui.js'></script>
+	<style>
+		.blackBackground{
+		background-color:#000;
+		transition: background-color 2s ease-out;
+		}
+	</style>
+    </head>
+    <body>
+	<audio autoplay loop id = "music">
+  		<source src="Cheeze-Us.mp3" type="audio/mpeg">
+		Your browser does not support the HTML5 audio element.
+	</audio>
+
+        <script>
+	var story = 0;
+	var text;
+	var container;
+	var button;
+	var label;
+
+        var Q = Quintus()
+            .include("Sprites, Scenes, Input, 2D, Touch, UI, Anim")
+            .setup({maximize:true, scaleToFit: true
+            }).controls().touch();            
+        
+      
+        //player
+        Q.Sprite.extend("Player", {
+            init: function(p) {
+              this._super(p, { sheet: "sprites", sprite: "player", x: 100, y: 170, speed: 150, jumpSpeed: -270});
+              this.add('2d, platformerControls, animation');
+	      this.p.flip = 'x';              
+            }, 
+            step: function(dt) {
+                if(this.p.vx<0) {
+                    this.p.flip = 'x';
+			this.play("walk_left");
+                } 
+                else if(this.p.vx>0) {
+                    this.p.flip = false;
+			this.play("walk_right");                    
+                }
+		
+		if(story === 0 && this.p.y > 200){
+			text = "I had that dream again, Voltorb.";
+			Q.stageScene("showText", 1);
+			story++;			
+		}
+
+		else if(story === 1 && this.p.x > 1200){
+			text = "A cave?";
+			Q.stageScene("showText", 1);
+			story++;			
+		}
+
+		else if (story === 2 && this.p.x > 1400){
+			document.body.className += ' ' + 'blackBackground';
+			story++;
+		}
+
+		else if (story === 3 && this.p.x > 2250){
+			text = "Voltorb?"
+			Q.stageScene("end", 1);
+			//story++;
+		}
+            }                    
+          });
+
+	Q.Sprite.extend("oldLady",{
+		init: function(p){
+			this._super(p,{sheet: "sprites", sprite: "oldLady", x:800, y: 200, type: Q.SPRITE_NONE});
+			this.add('2d, animation');
+			this.play('ladyStand');		
+		}	
+	});
+                       
+        
+        Q.scene("level1",function(stage) {
+          
+            var background = new Q.TileLayer({ dataAsset: 'voltMap.tmx', layerIndex: 0, sheet: 'blocks', tileW: 32, tileH: 32, type: Q.SPRITE_NONE });
+            stage.insert(background);
+            
+            stage.collisionLayer(new Q.TileLayer({ dataAsset: 'voltMap.tmx', layerIndex:1,  sheet: 'blocks', tileW: 32, tileH: 32 }));
+          
+            var player = stage.insert(new Q.Player());
+            
+            stage.add("viewport").follow(player);
+	    stage.viewport.scale = 3;
+	    //stage.viewport.offsetX = 175;
+	   // stage.viewport.offsetY = 140;
+
+	    stage.insert(new Q.oldLady());
+          
+        });
+
+	Q.scene("showText", function () {
+		//player.speed = 0;
+		Q.stage(0).pause();
+  		container = Q.stage().insert(new Q.UI.Container({
+    			x: Q.width/2, y: Q.height/2, fill: "rgba(0,0,0,0.5)"
+  		}));
+
+  		button = container.insert(new Q.UI.Button({ x: 0, y: 0, fill: "#CCCCCC",
+                                                  label: "Continue" }))         
+  		label = container.insert(new Q.UI.Text({x:10, y: -10 - button.p.h, 
+                                                   label: text, color: "#FFFFFF" }));
+ 		// When the button is clicked, clear all the stages
+  		// and restart the game.
+  		button.on("click", function() {
+   			Q.clearStage(1);
+   			//Q.stageScene('level1');
+			//player.speed = 100;
+			Q.stage(0).unpause();
+ 		});
+
+
+  		// Expand the container to visibily fit it's contents
+  		// (with a padding of 20 pixels)
+  		container.fit(20);
+	});
+
+	Q.scene("end", function(){
+		document.getElementById("music").pause();
+		Q.clearStage(0);
+		container = Q.stage(1).insert(new Q.UI.Container({
+    			x: Q.width/2, y: Q.height/2, fill: "rgba(0,0,0)"
+  		}));
+		label = container.insert(new Q.UI.Text({x: 0, y: 0, 
+                                                   label: text, color: "#FFFFFF", scale: 4 }));
+		setTimeout(function(){
+		Q.clearStages()
+		}, 5000);
+	});
+
+        
+        
+        //load assets
+        Q.load("blocks.png, sprites.png, voltMap.tmx", function() {
+          Q.sheet("blocks","blocks.png", { tilew: 32, tileh: 32});
+	  Q.sheet("sprites", "sprites.png", {tilew: 30, tileh: 27});
+	  Q.animations("player", {
+      		walk_right: { frames: [0,1,2], rate: 1/3, flip: false, loop: false },
+      		walk_left: { frames:  [0,1,2], rate: 1/3, flip:"x", loop: false }
+    	  });
+	  Q.animations("oldLady", {
+      		ladyStand: { frames: [4, 5], rate: 1/3, flip: false, loop: true }
+    	  });           
+          Q.stageScene("level1", 0);
+        });
+        
+        
+        </script>
+    </body>
+</html>
