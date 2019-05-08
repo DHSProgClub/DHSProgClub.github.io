@@ -1,0 +1,152 @@
+*{
+    -webkit-touch-callout: none;
+   -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.topContainer{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    width: 100%;
+    position: absolute;
+}
+
+.score{
+    background: rgba(255, 255, 255, .5);
+    text-align: center;
+    float: left;
+    padding: .4em;
+    width: 10%;
+}
+
+.time{
+    background: rgba(255, 255, 255, .5);
+    text-align: center;
+    float: right;
+    padding: .4em;
+    width: 10%;
+}
+
+.option{
+    width: 10%;
+	border-radius: 1em;
+    padding: .2em;
+    margin: 1em;
+	text-align: center;
+	transition: box-shadow 1s;
+    position: absolute;
+    z-index: 1;
+}
+
+.optionA{
+	background: rgba(255, 20, 40, .7);
+}
+
+.optionB{
+	background: rgba(0, 55, 255, .7);
+}
+
+.optionA:hover{ 
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(0,21,255,1);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(0,21,255,1);
+    box-shadow: 0px 0px 15px 2px rgba(0,21,255,1);
+}
+
+.optionB:hover{
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(255,0,0,1);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(255,0,0,1);
+    box-shadow: 0px 0px 15px 2px rgba(255,0,0,1);
+}
+
+.optionText{
+    font-size: 1.2em;
+}
+
+.bottomContainer{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    width: 100%;
+    height: 15%;
+    background: rgba(255, 255, 255, .5);
+    position: absolute;
+    bottom: 0%;
+
+}
+
+table{
+    width: 100%;
+    border: none;
+    height:100%;
+}
+
+.question1{
+    text-align: center;
+    width: 25%;
+}
+
+.question2{
+    text-align: center;
+    width: 25%;
+}
+
+body{
+	background: url(../img/CrossingDelaware.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+    overflow-x: hidden;
+}
+
+.answerBox{
+    width: 45%;
+    height: 95%;
+    padding: .2em;
+    margin: 1em;
+    transition: box-shadow 0.2s;
+}
+
+.answerBox1{
+    background: rgba(235, 0, 0, .5);
+}
+
+.answerBox2{
+    background: rgba(0, 0, 255, .5);
+}
+
+.answerBox1Active{
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(0,21,255,1);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(0,21,255,1);
+    box-shadow: 0px 0px 15px 2px rgba(0,21,255,1);
+    border-radius: 1em;
+    height: 105%;
+
+}
+.answerBox2Active{
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(255,0,0,1);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(255,0,0,1);
+    box-shadow: 0px 0px 15px 2px rgba(255,0,0,1);
+    border-radius: 1em;
+    height: 105%;
+
+}
+.answerBox1Dropped{
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(0,21,255,1);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(0,21,255,1);
+    box-shadow: 0px 0px 15px 2px rgba(0,21,255,1);
+    height: 105%;
+    
+}
+.answerBox2Dropped{
+    height: 105%;
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(255,0,0,1);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(255,0,0,1);
+    box-shadow: 0px 0px 15px 2px rgba(255,0,0,1);
+}
+
+
+
+

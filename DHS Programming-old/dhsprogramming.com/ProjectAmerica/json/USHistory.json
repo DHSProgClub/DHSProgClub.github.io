@@ -1,0 +1,1443 @@
+{
+   "era1": {
+      "battles": [{
+         "name": "Battles of Lexington and Concord",
+         "year": "1775",
+         "location": "Massachusetts",
+          
+            "victor": "British",
+            "loser": "Colonists"
+         ,
+         "notables": [
+            "Start of revolutionary war",
+            "Paul Revere's midnight ride to Concord warned the people in advance",
+            "\"Shot heard round the world\" was fired"
+         ]
+      }, {
+         "name": "Fort Ticonderoga",
+         "year": "1775",
+         "location": "New York",
+          
+            "victor": "Americans",
+            "loser": "British"
+         ,
+         "notables": [
+            "This location contained much needed military equipment (including cannons)",
+            "Benedict Arnold and Ethan Allen led the American forces",
+            "First rebel victory of the Revolutionary War"
+         ]
+      }, {
+         "name": "Battle of Bunker Hill",
+         "year": "1775",
+         "location": "Massachusetts",
+          
+            "victor": "British (Pyrrhic)",
+            "loser": "Americans"
+         ,
+         "notables": [
+            "British casualities over 1000, Americans only 400",
+            "American General Putnam ordered: Don't fire until you see the whites of their eyes"
+         ]
+      }, {
+         "name": "Battle of Long Island",
+         "year": "1776",
+         "location": "New York",
+          
+            "victor": "British",
+            "loser": "Americans"
+         ,
+         "notables": [
+            "Severe defeat for Americans (outnumbered 2-1)",
+            "Americans evacuate Manhattan",
+            "General Washington threw his hat on the ground in anger"
+         ]
+      }, {
+         "name": "Battle of Trenton",
+         "year": "1776",
+         "location": "New Jersey",
+          
+            "victor": "Americans",
+            "loser": "British"
+         ,
+         "notables": [
+            "On Christmas, surprise raid on British Hessians (German mercenaries)",
+            "There's a famous painting of Washington crossing the Delaware River",
+            "1000 taken prisoner, only 6 American soldiers wounded"
+         ]
+      }, {
+         "name": "Battle of Saratoga",
+         "year": "1777",
+         "location": "New York",
+          
+            "victor": "Americans",
+            "loser": "British"
+         ,
+         "notables": [
+            "First major American victory of the Revolutionary War",
+            "General Benedict Arnold ambushed General Burgoyne's slow moving convoy, stopping much British reinforcement",
+            "600 British casualties while American losses are only 150"
+         ]
+      }, {
+         "name": "Siege of Rhode Island",
+         "year": "1778",
+         "location": "Rhode Island",
+          
+            "victor": "British",
+            "loser": "Americans and French"
+         ,
+         "notables": [
+            "Bad weather and delays of the land troops resulted in failure",
+            "This showed that alliance with France would not speedily end the war"
+         ]
+      }, {
+         "name": "Battle of Charleston",
+         "year": "1780",
+         "location": "South Carolina",
+          
+            "victor": "British",
+            "loser": "Americans"
+         ,
+         "notables": [
+            "The worst American defeat of the Revolutionary War",
+            "Charleston and the Americans' 5400-man garrison captured, British losses only 225"
+         ]
+      }, {
+         "name": "Battle of Cowpens",
+         "year": "1781",
+         "location": "South Carolina",
+          
+            "victor": "Americans",
+            "loser": "British"
+         ,
+         "notables": [
+            "The battle lasted a little over one hour and was an overwhelming American victory",
+            "Stopped British offensive momentum in the South"
+         ]
+      }, {
+         "name": "Battle of Yorktown",
+         "year": "1781",
+         "location": "New York",
+          
+            "victor": "Americans and French",
+            "loser": "British"
+         ,
+         "notables": [
+            "Americans lay siege to Yorktown until British surrender",
+            "Last battle of the Revolutionary war"
+         ]
+      }],
+
+      "inventions": [{
+         "name": "Lighting rod",
+         "year": "1752",
+         "impact": "Frankin's invention protected homes from lighting strikes and inspired inquiry into electricity"
+      }, {
+         "name": "Cotton Gin",
+         "year": "1794",
+         "impact":  "Whitney's invention offered an economic justification to maintain and expand slavery by increasing productivity"
+      }],
+
+      "elections": [{
+         "name": "Election of 1788-89",
+         "result": "Washington runs unopposed",
+         "notables": [
+            "The winner was reluctant to become president due to raging debates concerning the new government",
+            "The new president was careful to avoid any symbolic references to European monarchy",
+            "Got 100% of the vote"
+         ]
+      }, {
+         "name": "Election of 1792",
+         "result": "Washington runs unopposed again",
+         "notables": [
+            "The winner was re-elected unanimously",
+            "John Adams became vice president again"
+         ]
+      }, {
+         "name": "Election of 1796",
+         "result": "Federalist Adams defeated Democratic-Republican Jefferson",
+         "notables": [
+            "Washington refused a third term, setting a two term precedent for future presidents",
+            "Only election cycle to elect a President and Vice President from opposing parties",
+            "Vice President Jefferson did not get along with the commander-and-chief"
+         ]
+      }],
+
+      "court": [{
+            "name": "Judiciary Act",
+            "year": "1789",
+            "ruling": "Created Judiciary Branch"
+         }
+
+      ],
+
+      "other": [{
+         "name": "Boston Massacre",
+         "year": "1770",
+         "significance": "A milestone in turning colonial sentiment against British authority"
+      }, {
+         "name": "Boston Tea Party",
+         "year": "1773",
+         "significance": "Culmination of a resistance movement against the Tea Act (no taxation without representation)"
+      }, {
+         "name": "Publication of Thomas Paine's Common Sense",
+         "year": "1776",
+         "significance": "\"...there is something absurd, in supposing a continent to be perpetually governed by an island.\""
+      }, {
+         "name": "United States Declaration of Independance",
+         "year": "1776",
+         "significance": "Announced violation of the people's rights to \"life, liberty, and the pursuit of happiness\" justified a revolution"
+      }, {
+         "name": "Treaty of Paris",
+         "year": "1783",
+         "significance": "Ended the Revolutionary War and recognized American sovereignty"
+      }, {
+         "name": "Northwest Ordinance",
+         "year": "1787",
+         "significance": "Established formal procedures for transforming territories into states, facilitating western expansion"
+      }, {
+         "name": "Constitutional Convention",
+         "year": "1787",
+         "significance": "Developed a three branch government and political parties support and oppose passing the new Constitution."
+      }, {
+         "name": "Bill of Rights",
+         "year": "1789",
+         "significance": "First 10 amendments to the Constitutions, listing the fundamental rights of U.S. citizens"
+      },
+      {
+         "name":"11th Constitutional Ammendment passed",
+         "year":"1795",
+         "significance":"Makes states immune from suits from out-of-state citizens and foreigners not living within the state borders"
+      }
+      
+      ]
+   },
+
+   "era2": {
+      "battles": [{
+         "name": "Battle of Lake Erie",
+         "year": "1813",
+         "location": "Canadian Border, Ohio",
+          
+            "victor": "Americans",
+            "loser": "British"
+         ,
+         "notables": [
+            "Gave the Americans control of Lake Erie for the rest of the war",
+            "The first unqualified defeat of a British naval squadron in history"
+         ]
+      }, {
+         "name": "Battle of Platsburgh",
+         "year": "1814",
+         "location": "New York",
+          
+            "victor": "Americans",
+            "loser": "British"
+         ,
+         "notables": [
+            "Ended British invasions of the northern United States",
+            "British General Prevost, the Defender of Canada, got rekt"
+         ]
+      }, {
+         "name": "Battle of New Orleans",
+         "year": "1815",
+         "location": "Louisiana",
+          
+            "victor": "Americans",
+            "loser": "British"
+         ,
+         "notables": [
+            "Yes, this happened after the end of the war. Information travelled slowly.",
+            "Made future president General Andrew Jackson quite popular"
+         ]
+      }, {
+         "name": "Battle of the Alamo",
+         "year": "1836",
+         "location": "Texas",
+          
+            "victor": "Mexicans",
+            "loser": "Texans"
+         ,
+         "notables": [
+            "Santa Anna's cruelty during the battle inspired many Texians to join the Texian Army",
+            "The site of this battle is now the most popular tourist spot in Texas",
+            "Texas essentially won its independence for the next decade"
+         ]
+      }, {
+         "name": "Battle of Palo Alto",
+         "year": "1846",
+         "location": "Texas",
+          
+            "victor": "Americans",
+            "loser": "Mexicans"
+         ,
+         "notables": [
+            "The first official battle of the Mexican-American War",
+            "American General Zachary Taylor would later become president"
+         ]
+      }, {
+         "name": "Battle of Monterry",
+         "year": "1846",
+         "location": "Mexico",
+          
+            "victor": "Americans",
+            "loser": "Mexicans"
+         ,
+         "notables": [
+            "American General Taylor, defying conventional military wisdom, divided his army to attack the city from two sides at once",
+            "Mexican General Ampudia surrendered the city in exchange for an eight-week armistice and allowing his troops to go free"
+         ]
+      }, {
+         "name": "Battle of Buena Vista",
+         "year": "1847",
+         "location": "Mexico",
+          
+            "victor": "Americans",
+            "loser": "Mexicans"
+         ,
+         "notables": [
+            "This close victory carried American General Taylor to the presidency the following year",
+            "Americans were vastly outnumbered, an estimated 4,600 vs 15,000"
+         ]
+      }, {
+         "name": "Battle for Mexico City",
+         "year": "1847",
+         "location": "Mexico",
+          
+            "victor": "Americans",
+            "loser": "Mexicans"
+         ,
+         "notables": [
+            "Americans were outnumbered at the Mexican capital, 7,150 vs 16,000",
+            "The last battle of the Mexican-American War"
+         ]
+      }],
+
+      "inventions": [{
+         "name": "McCormick's Mechanical Reaper",
+         "year": "1831",
+         "impact":  "Allowed farmers to harvest five times as quickly compared to using a scythe"
+      }, 
+      {
+         "name":"Rotary Printing Press",
+         "year":"1843",
+         "impact": "Printed images on a large number of substrates by curving image around a cylinder"
+      },
+      {
+         "name": "Telegraph/Morse Code",
+         "year": "1844",
+        "impact":  "Made instant communication between distant places in the country possible"
+      }, 
+      
+         {
+         "name":"Steel Plow",
+         "year":"1837",
+         "impact": "Deere's design could work soil in areas of the US that had previously been considered unsuitable for farming"
+         },
+      
+      {
+         "name": "Vulcanization",
+         "year": "1844",
+         "impact":  "Goodyear's chemical process to make rubber strong and supple to create tires"
+      }, {
+         "name": "Minie Bullet",
+         "year": "1849",
+         "impact":  "Muzzle-loading rifles could be easily loaded and were now used in combat situations"
+      }],
+
+
+      "elections": [{
+         "name": "Election of 1800",
+         "result": "Democratic-Republican Jefferson defeated Democratic-Republican Burr, and Federalists Adams and Pinckney",
+         "notables": [
+            "The winner was elected by vote of House of Representatives",
+            "The top two candidates both recieved the same number of electoral votes",
+            "Ushered in an Era of Jeffersonian Democracy",
+            "Jefferson had been a primary author of the Declaration of Independence"
+         ]
+      }, {
+         "name": "Election of 1804",
+         "result": "Democratic-Republican Jefferson defeated Federalist Pinckney",
+         "notables": [
+            "Highest victory margin in a presidential election in which there were multiple major party candidates",
+            "Under the 12th amendment, electors were required to vote for both president and vice president",
+            "The losing candidate had been involved in the XYZ Affair"
+         ]
+      }, {
+         "name": "Election of 1808",
+         "result": "Democratic-Republican Madison defeated Federalist Pinckney",
+         "notables": [
+            "First of only two times the incumbent Vice President would continue to serve under a new President",
+            "The winner had served as Secretary of State under Jefferson"
+         ]
+      }, {
+         "name": "Election of 1812",
+         "result": "Democratic-Republican Madison defeated Democratic-Republican Clinton",
+         "notables": [
+            "New York replaced Virginia with most electoral votes (would hold #1 spot until 1972)",
+            "The closest election up to that point for the popular vote (50.4%)",
+            "Testament to Democratic-Republican political domination, both candidates were of the same party"
+         ]
+      }, {
+         "name": "Election of 1816",
+         "result": "Democratic-Republican Monroe defeated Federalist King",
+         "notables": [
+            "Democratic-Republicans received the credit for the end of the War of 1812",
+            "Indiana became a state during this election cycle",
+            "Federalists had been unpopular because of the Hartford Convention"
+         ]
+      }, {
+         "name": "Election of 1820",
+         "result": "Democratic-Republican Monroe defeated Independant J.Q. Adams",
+         "notables": [
+            "The only U.S. presidential election in which a candidate ran effectively unopposed, (excluding Washington's two terms)",
+            "Continuation of single party politics, known as the Era of Good Feelings"
+         ]
+      }, {
+         "name": "Election of 1824",
+         "result": "Democratic-Republican J.Q. Adams defeated Democratic Republicans Jackson, Crawford, and Clay",
+         "notables": [
+            "The winner was son of the United States' second president",
+            "No candidate received a majority of the electoral vote, so the House of Representatives decided",
+            "Henry Clay agreed to support Adams, causing Jackson to accuse them of making a \"Corrupt Bargain.\""
+         ]
+      }, {
+         "name": "Election of 1828",
+         "result": "Democratic Jackson defeated National Republican J.Q. Adams",
+         "notables": [
+            "Incumbent Vice President John C. Calhoun sided with the winning candidate",
+            "The winner recieved 68.2% of Electoral votes, but only 56% of popular vote",
+            "Ushered in Era of Jacksonian Democracy"
+         ]
+      }, {
+         "name": "Election of 1832",
+         "result": "Democratic Jackson defeated National Republican Clay, Independant Floyd, and Anti-Masonic Wirt",
+         "notables": [
+            "Henry Clay had been Secretary of State under John Quincy Adams and a prominent senator",
+            "First Democratic National Convention held in Baltimore",
+            "The Anti-Masonic Party was highly opposed to Free Masons"
+         ]
+      }, {
+         "name": "Election of 1836",
+         "result": "Democratic Van Buren defeated Whigs Harrison, White, Webster, and Independent Mangum",
+         "notables": [
+            "Only time in which a Vice Presidential election was thrown into the Senate",
+            "Only race in which a major political party (the Whigs) intentionally ran several presidential candidates",
+            "Van Buren was called \"The Little Magician\"",
+            "Van Buren spoke Dutch"
+         ]
+      }, {
+         "name": "Election of 1840",
+         "result": "Whig Harrison defeated Democratic Van Buren",
+         "notables": [
+            "Rallying under the slogan 'Tippecanoe and Tyler, too,' the winner easily defeated the old President",
+            "Martin Van Buren had been blamed for the economic depression following Jackson's Bank War"
+         ]
+      }, {
+         "name": "Election of 1844",
+         "result": "Democrat Polk defeated Whig Clay",
+         "notables": [
+            "The winner ran on a platform that embraced American territorial expansionism (Manifest Destiny)",
+            "Polk was a darkhorse candidate",
+            "The winner would annex much of Mexico"
+         ]
+      }, {
+         "name": "Election of 1848",
+         "result": "Whig Taylor defeated Democratic Cass",
+         "notables": [
+            "The winner was not clearly committed to Whig principles, but he was popular for leading the Mexican War effort",
+            "This winning candidate was the last Whig president"
+         ]
+      }],
+
+      "court": [{
+         "name": "Marbury v. Madison",
+         "year": "1803",
+         "ruling": "Established the right of the Supreme Court to overturn acts of Congress it deemed unconstitutional"
+      }, {
+         "name": "McCulloch v. Maryland",
+         "year": "1819",
+         "ruling": "Stopping Maryland from taxing in-state establishments of Bank of the United States, establishing federal immunities"
+      }, {
+         "name": "Gibbons v. Ogden",
+         "year": "1824",
+         "ruling": "Gave the federal government the right to regulate interstate commerce"
+      }],
+
+      "other": [{
+         "name": "Louisiana Purchase",
+         "year": "1803",
+         "significance": "Doubled the country's size and opened up the possibilities for westward expansion."
+         }, {
+         "name": "Hartford Convention",
+         "year": "1814-15",
+         "significance": "Peace-talks between New England Federalists and Britain to continue trade (there were even calls for secession)."
+         }, {
+         "name": "Missouri Compromise",
+         "year": "1820",
+         "significance": "Clay pushed this compromise to ban slavery north of the 36.5 degree parallel. Missouri was allowed an exception."
+         }, {
+         "name": "Erie Canal",
+         "year": "1825",
+         "significance": "Gave the western states direct access to the Atlantic Ocean without using the Mississippi River"
+         }
+
+      ]
+
+   },
+
+   "era3": {
+
+      "battles": [
+         {
+           "name":"Raid on Harper's Ferry",
+           "year":"1859",
+           "location":"Virginia",
+           "victor":"US Marines",
+           "loser":"John Brown & Abolitionists",
+           "notables":[
+              "An attempt to start an armed slave revolt and destroy the institution of slavery",
+              "Helped make further accommodation between North and South nearly impossible and thus became an important impetus of the Civil War"
+              ]
+         },
+         {
+            "name": "First Battle of Bull Run",
+            "year": "1861",
+            "location": "Virginia",
+             
+               "victor": "Confederates",
+               "loser": "Union"
+            ,
+            "notables": [
+               "Local residents picnicked near the battlegrounds, expecting an easy victory for the Union",
+               "This battle was expected to be the first and last of the civil war"
+            ]
+         }, {
+            "name": "Battle of Shiloh",
+            "year": "1862",
+            "location": "Tennessee",
+             
+               "victor": "Union",
+               "loser": "Confederates"
+            ,
+            "notables": [
+               "Total casualties equaled over 20,000",
+               "Union General Johnston was killed in this battle"
+            ]
+         }, {
+            "name": "Battle of Antietam",
+            "year": "1862",
+            "location": "Maryland",
+             
+               "victor": "Union",
+               "loser": "Confederates"
+            ,
+            "notables": [
+               "Single bloodiest day of the Civil War, with 23,000 casualties",
+               "Union General McClellan failed to pursue the Confederate troops and was therefore replaced by General Burnside"
+            ]
+         }, 
+         {
+            "name":"Battle of Gettysburg",
+            "year":"1863",
+            "location":"Pennsylvania",
+             
+               "victor":"Union",
+               "loser":"Confederates"
+            ,
+            "notables":[
+               "The battle involved the largest number of casualties of the entire Civil War",
+               "Between 46,000 and 51,000 soldiers from both armies were casualties in the three-day battle"
+               ]
+         },
+         {
+            "name":"Battle of Vicksburg",
+            "year":"1863",
+            "location":"Mississippi",
+             
+               "victor":"Union",
+               "loser":"Confederates"
+            ,
+            "notables":[
+               "This location was last major Confederate stronghold on the Mississippi River.  After two failed assaults, Grant laid seige to the city",
+               "This victory cut off the states of Arkansas, Louisiana, and Texas from the rest of the Confederacy"
+               ]
+         },
+         {
+            "name":"Siege of Petersburg",
+            "year":"1865",
+            "location":"Virginia",
+             
+               "victor":"Union",
+               "loser":"Confederates"
+            ,
+            "notables":[
+               "After an unsuccessful asault, Union forces commanded by Lt. Gen. Grant constructed trench lines that extended over 30 mi",
+               "This location was crucial to the supply of the Confederate army and Richmond.  The union tried to cut off its railroad supply lines"
+               ]
+         },
+         {
+            "name": "Battle of Manilla Bay",
+            "year": "1898",
+            "location": "Phillipines",
+             
+               "victor": "Americans",
+               "loser": "Spanish"
+            ,
+            "notables": [
+               "First battle of the Spanish-American war",
+               "Spanish losses estimated at more than 370 troops, American casualities fewer than 10"
+            ]
+         }, {
+            "name": "Battle of Santiago de Cuba",
+            "year": "1898",
+            "location": "Cuba",
+             
+               "victor": "Americans",
+               "loser": "Spanish"
+            ,
+            "notables": [
+               "Complete destruction of the Spanish fleet",
+               "End of large-scale naval operations in the Spanish-American war"
+            ]
+         },
+         {
+            "name":"Monitor vs. Merrimack",
+            "year":"1862",
+            "location":"Virginia",
+            "victor":"Unclear",
+            "loser":"Unclear",
+            "notables":[
+               "History’s first duel between ironclad warships and the beginning of a new era of naval warfare",
+               "The Confederacy struggled to source the iron plating needed for their ship, resorting to melted tools and railroad tracks"
+               ]
+         }
+
+      ],
+
+      "inventions": [{
+            "name": "Cowboy Hat",
+            "year": "1865",
+            "impact":  "Stetson made this article's fabric without weaving, and can protect the wearer from the elements"
+         }, {
+            "name": "(Hand-cranked) Machine gun",
+            "year": "1861",
+            "impact":  "Gatling had hoped that his powerful new weapon would discourage large scale battles and show the folly of war"
+         }, {
+            "name": "(Steam-powered) Motorcycle",
+            "year": "1867",
+            "impact": "Roper fixed a coal-fired boiler between the wheels, but he died demonstrating one of his machines"
+         }
+         
+      ],
+
+      "elections": [{
+            "name": "Election of 1852",
+            "result": "Democratic Pierce defeated Whig Scott",
+            "notables": [
+               "California becomes a state during this election cycle",
+               "Whig party collapsed after the 1852 election",
+                    "Winfield Scott was a hero from the Mexican War"
+            ]
+         }, {
+            "name": "Election of 1856",
+            "result": "Democratic Buchanan defeated Republican Fremont and American Fillmore",
+            "notables": [
+               "The Whig Party had disintegrated over the issue of slavery, and the new Republican and American Parties competed to replace them",
+               "Winner Buchanan received only about 45% of the popular vote",
+                        "Buchanan is ranked one of the worst US presidents for failed efforts to keep peace between the North and South"
+            ]
+         }, {
+            "name": "Election of 1860",
+            "result": "Republican Lincoln defeated Constitutional Union Bell and Democratics Breckinridge and Douglass",
+            "notables": [
+               "Questions of states' rights and slavery fractured the formerly dominant Democratic Party into Southern and Northern factions",
+               "Lincoln was elected with support from a single southern state"
+            ]
+         },
+         {
+            "name": "Election of 1864",
+            "result": "Republican Lincoln defeated Democratic McClellan",
+            "notables": [
+               "The 1864 election occurred during the Civil War, so none of the states loyal to the Confederate States of America participated",
+                           "McClellan had been a relatively poor general who disobeyed Lincoln and trash-talked him in private",
+                        "The Copperheads were Peace Democrats, staying in the Union although most of the Democratic Party had gone South",
+               "Several states allowed their citizens serving as soldiers in the field to cast ballots (a first in United States history)"
+            ]
+         },
+         {
+            "name": "Election of 1868",
+            "result": "Republican Grant defeated Democratic Seymour",
+            "notables": [
+               "Texas, Mississippi, and Virginia were not yet restored to the Union and therefore could not vote in the election",
+               "The Republican campaign theme — Let us have peace — was popular in the post-war nation",
+                           "Grant had been Commanding General of the US Army prior to the election"
+            ]
+         },
+         {
+            "name":"Election of 1872",
+            "result":"Republican Grant defeated Democratic and Liberal Republicans Hendricks and Greeley",
+            "notables":[
+               "Greeley died after the popular vote but before the Electoral College cast its vote (as did the Liberal Republican Party)",
+                        "Horace Greeley had been publisher of the New York Tribune",
+               "Arkansas and Louisiana did not participate"
+            ]
+         },
+         {
+            "name": "Election of 1876",
+            "result": "Republican Hayes defeated Democratic Tilden",
+            "notables": [
+               "While Tilden narrowly won the popular vote, Hayes won the electoral vote by only 1 vote after much dispute",
+               "The Republicans may have agreed to end Reconstruction in return for Hayes’ election to resolve the voting dispute"
+            ]
+         },
+         {
+            "name":"Election of 1880",
+            "result":"Republican Garfield defeated Democratic Hancock",
+            "notables":[
+               "It is to date the smallest popular vote victory in American history: 48.27% to 48.25%",
+               "Incumbent President Rutherford Hayes did not seek re-election, keeping a promise made during the 1876 campaign",
+                        "Garfield would be assassinated"
+            ]
+         }, 
+         {
+            "name": "Election of 1884",
+            "result": "Democratic Cleveland defeated Republican Blaine",
+            "notables": [
+               "First Democrat elected President of the United States since before the American Civil War",
+               "This election featured excessive mudslinging and personal acrimony",
+                    "Mugwumps were Republicans who supported Democratic Cleveland"
+            ]
+         }, {
+            "name": "Election of 1888",
+            "result": "Republican Harrison defeated Democratic Cleveland",
+            "notables": [
+               "One of only 4 elections (1824, 1876, 1888, 2000) where the popular vote winner was defeated",
+               "Harrison won by buying votes from groups of electors called “Blocks of Five",
+                           "The winner supported high tarrifs favored by businesses, while the Cleveland supported low ones favored by consumers"
+            ]
+         },
+         {
+            "name":"Election of 1892",
+            "result":"Democratic Cleveland defeated Republican Harrison and Populist Weaver",
+            "notables":[
+               "Cleveland became the only person in US history to be elected to a second, non-consecutive presidential term",
+               "New Populist Party championing the West, farmers, unions, and workers got 8.5% of the popular vote"
+            ]
+         }, {
+            "name": "Election of 1896",
+            "result": "Republican McKinley defeated Democrat-Populist Bryan",
+            "notables": [
+               "Bryan was the first ever to criss-cross the nation and meet voters in person",
+               "500K voters were brought by train to McKinley's home, where he would give a speech to them from his porch (the Front Porch Campaign)",
+                           "McKinley would get assassinated",
+                           "McKinley supported businesses and industrialists",
+                           "Populist Party supported Bryan when he took on their Free Silver platform: silver as a currency raised inflation and reduced farmer debt"
+            ]
+         }
+
+      ],
+
+      "court" : [
+         {
+            "name":"Dred Scott v. Sandford",
+            "year":"1857",
+            "ruling":"Blacks were not considered citizens, and Congress had no right to ban slavery from U.S. territories - overriding Missouri Compromise"
+         },
+         {
+            "name":"Plessy v. Ferguson",
+            "year":"1896",
+            "ruling":"Defended the constitutionality of racial segregation (separate but equal)"
+         }
+
+      ],
+
+      "other" : [
+         {
+            "name":"Emancipation Proclamation",
+            "year":"1862",
+            "significance":"The Conederacy the favor of Britain and France, and its slaves were freed, encouraging them to escape."
+         },
+         {
+            "name":"13th Constitutional Ammendment passed",
+            "year":"1865",
+            "significance":"Abolishes slavery, and involuntary servitude, except as punishment for a crime"
+         },
+         {
+            "name":"14th Constitutional Ammendment passed",
+            "year":"1868",
+            "significance":"Defines citizenship, contains Clauses (such as Due Process, Equal Protection), and deals with post-Civil War issues"
+         },
+         {
+            "name":"15th Constitutional Ammendment passed",
+            "year":"1870",
+            "significance":"Prohibits the denial of the right to vote based on race, color, or previous condition of servitude"
+         },
+         {
+            "name":"Homestead Act",
+            "year":"1862",
+            "significance":"Encouraged Western migration by providing settlers 160 acres of public land"
+         },
+         {
+            "name":"Morril Act",
+            "year":"1862",
+            "significance":"Granted states land to finance new colleges specializing in agriculture and the mechanic arts"
+         },
+         {
+            "name":"Gospel of Wealth",
+            "year":"1889",
+            "significance":"Declared that the rich should live modest lifestyles, excess wealth should be spent to enrich the community"
+            
+         }
+
+      ]
+
+   },
+
+   "era4": {
+
+      "battles": [{
+            "name": "Battle of Cantigny",
+            "year": "1918",
+            "location": "Cantigny, Germany",
+             
+               "victor": "Americans and French",
+               "loser": "Germans"
+
+            ,
+            "notables": [
+               "First American Battle fought in WWI",
+               "Reduced a German Army salient proved the ability of the inexperienced American troops."
+            ]
+         }, {
+            "name": "Attack on Pearl Harbor",
+            "year": "1941",
+            "location": "Pearl Harbor, Hawaii",
+             
+               "victor": "Japanese",
+               "loser": "Americans"
+            ,
+            "notables": [
+               "All of the Americans casualities were non-combatants, because there was no state of war when the attack occurred",
+               "The US entered WWII and declared war on the Axis powers"
+            ]
+         }, {
+            "name": "Atomic Bombings of Hiroshima and Nagasaki",
+            "year": "1945",
+            "location": "Hiroshima, Japan and Nagasaki, Japan",
+             
+               "victor": "Americans",
+               "loser": "Japanese"
+            ,
+            "notables": [
+               "129,000–246,000+ killed, mostly civilians",
+               "Japan surrendered 6 days after the bombings"
+            ]
+         },
+         {
+            "name":"D-Day",
+            "year":"1944",
+            "location":"France",
+             
+               "victor":"Allied Forces",
+               "loser":"Germans"
+            ,
+            "notables":[
+               "The largest seaborne invasion in history",
+               "Amphibious beach landings in non-ideal weather drove German defenders from their positions, but at a high cost"
+               ]
+         },
+         {
+            "name":"Battle of the Bulge",
+            "year":"1944",
+            "location":"France",
+             
+               "victor":"Allied Forces",
+               "loser":"German"
+            ,
+            "notables":[
+               "A major German offensive campaign through the forest of the Adrennes region to split the Allied troops in two",
+               "The terrain and improving weather conditions favoured the Allies. It was one of the largest/bloodiest battles of WWII"
+               ]
+         },
+         {
+            "name":"Battle of Okinawa",
+            "year":"1945",
+            "location":"Okinawa",
+             
+               "victor":"Allied Forces",
+               "loser":"Japan"
+            ,
+            "notables":[
+               "The Japanese fought against U.S. invasion of this strategic island fiercely using kamikazes and launching a ground counterattack, however, they failed",
+               "100,000 Japanese soldiers and 12,000 American soldiers were counted as casualties of this long battle"
+               ]
+         }
+
+      ],
+
+      "inventions": [{
+            "name": "First Powered Flight",
+            "year": "1903",
+           "impact":  "The Wright brothers developed the first, fully functional, steerable, airplane"
+         }, {
+            "name": "Penicillin",
+            "year": "1928",
+            "impact":  "Fleming's new antibiotics were the first medications to be effective against many bacterial infections"
+         }, {
+            "name": "First Nuclear Reactor",
+            "year": "1942",
+            "impact": "Allowed mass production of plutonium for nuclear weapons at the time"
+         },
+         {
+            "name":"Cyclotron Atom-Smasher",
+            "year":"1939",
+            "impact": "This is is a type of particle accelerator, currently used in particle beam cancer treatments"
+         }
+      ],
+
+      "elections": [
+         {
+            "name": "Election of 1900",
+            "result": "Republican McKinley defeated Democrat-Populist Bryan",
+            "notables": [
+               "It was a rematch of the 1896 elections",
+               "The winner died a year later, and was replaced by Theodore Roosevelt"
+                        ]
+         },
+{
+            "name": "Election of 1904",
+            "result": "Republican Theodore Roosevelt defeated Democratic Parker",
+            "notables": [
+               "The winner's popular vote margin was the largest recorded since 1820",
+               "The Republican Party unanimously nominated the winner during their 1904 national convention"
+                        ]
+         },{
+            "name": "Election of 1908",
+            "result": "Republican Taft defeated Democratic Bryan",
+            "notables": [
+               "T.D. Roosevelt persuaded the Republican Party to nominate his close friend and Secretary of War to become his successor",
+               "The loser ran a vigorous campain against the winner, but suffered the worst loss in his three presidential campaigns"
+                        ]
+         },{
+            "name": "Election of 1912",
+            "result": "Democratic Wilson defeated Progressive Roosevelt and Republican Taft",
+            "notables": [
+               "After not recieving the Republican nomination, Roosevelt created the Progressive Party to run against Wilson and Taft",
+               "Taft's 8 electoral votes fewest ever for an incumbent president"
+                        ]
+         },{
+            "name": "Election of 1916",
+            "result": "Democratic Wilson defeated Republican Hughes",
+            "notables": [
+               "The winner's campaign slogan 'he kept us out of the war' was popular with Americans who wanted to avoid involvement in WWI",
+               "The Republican candidate was a Supreme Court Justice"
+                        ]
+         },{
+            "name": "Election of 1920",
+            "result": "Republican Harding defeated Democratic Cox",
+            "notables": [
+               "Women were allowed to vote in this election cycle",
+               "The New president died three years later and was replaced by Coolidge",
+               "The 1920 election was dominated by the aftermath of WWI and the hostile reaction to former president Wilson"
+                        ]
+         },{
+            "name": "Election of 1924",
+            "result": "Republican Coolidge defeated Democratic Davis and Progressive LaFollette",
+            "notables": [
+               "The winner was credited with a booming home economy and no visible crises abroad during his brief time as president",
+               "A split in the Democratic party divded his competition between two candidates, helping him to win the presidency"
+                        ]
+         },{
+            "name": "Election of 1928",
+            "result": "Republican Hoover defeated Democratic Smith",
+            "notables": [
+               "The winner won a landslide victory on pledges to continue the economic boom of the Coolidge years",
+               "The loser suffered from anti-Catholic prejudice, anti-prohibitionist stance, and association with the corruption of Tammany Hall"
+                        ]
+         },{
+            "name": "Election of 1932",
+            "result": "Democratic F.D. Roosevelt defeated Republican Hoover",
+            "notables": [
+               "The winner promised reform in his policy called the New Deal",
+               "The incumbent president lost popularity due to the economic collapse and prohibition"
+                        ]
+         },{
+            "name": "Election of 1936",
+            "result": "Democratic F.D. Roosevelt defeated Republican Landon",
+            "notables": [
+               "The New Deal policies already enacted by the incumbent president were highly popular",
+               "Gallop Poll not only predicted the correct winning candidate, it also predicted The Literary Digest's mis-prediction"
+                        ]
+         },{
+            "name": "Election of 1940",
+            "result": "Democratic F.D. Roosevelt defeated Republican Willkie",
+            "notables": [
+               "The winner became the first and only President elected for a 3rd consecutive term",
+               "The winner promised there would be no foreign wars if he were reelected"
+                        ]
+         },{
+            "name": "Election of 1944",
+            "result": "Democratic F.D. Roosevelt defeated Republican Dewey",
+            "notables": [
+               "The winner became the first and only President elected for a 4th consecutive term",
+               "The winner died the next year, and was replaced by Truman"
+                        ]
+         },
+         {
+            "name": "Election of 1948",
+            "result": "Democratic Truman defeated Republican Dewey",
+            "notables": [
+               "Virtually every prediction indicated that the incumbent president (the winner) would be defeated by his opponent",
+               "The winner's surprise victory was the fifth consecutive win for the Democratic Party in a presidential election"
+                        ]
+         }
+      ],
+
+      "court": [
+         {
+            "name":"Lochner v. New York",
+            "year":"1905",
+            "ruling":"The Constitution bars a state from interfering with an employee’s right to contract with an employer"
+         },
+         {
+            "name":"Schenck v. United States",
+            "year":"1919",
+            "ruling":"Speech that presents a “clear and present danger” to the security of the United States violates free speech"
+         },
+         {
+            "name":"Near v. Minnesota",
+            "year":"1931",
+            "ruling":"The liberty of the pres is safeguarded from invasion by state action"
+         },
+         {
+            "name":"Tennessee v. Scopes",
+            "year":"1925",
+            "ruling":"Scopes was found guilty of violating the Butler Act, but the verdict was thrown out on a technicality"
+         }
+      ],
+
+      "other": [
+         {
+            "name":"Stock Market Crash",
+            "year":"1929",
+            "significance":"Started the Great Depression, worldwide GDP fell by an estimated 15% between 1929 and 1932"
+         },
+         {
+            "name":"Marshall Plan",
+            "year":"1948",
+            "significance":"An American initiave to help rebuild Western European economies after the end of WWII"
+         },
+         {
+            "name":"Creation of NATO",
+            "year":"1949",
+            "significance":"Created an intergovernmental military alliance based on the North Atlantic Treaty"
+         },
+         {
+            "name":"16th Constitutional Ammendment passed",
+            "year":"1913",
+            "significance":"Permits Congress to levy an income tax without diving it among the states or basing it on the Census"
+         },
+         {
+            "name":"17th Constitutional Ammendment passed",
+            "year":"1913",
+            "significance":"Establishes the direct election of United States Senators by popular vote"
+         },
+         {
+            "name":"18th Constitutional Ammendment passed",
+            "year":"1919",
+            "significance":"Prohibited the manufacturing or sale of alcohol within the United States (repealed 1933)"
+         },
+         {
+            "name":"19th Constitutional Ammendment passed",
+            "year":"1920",
+            "significance":"Prohibits the denial of the right to vote based on sex"
+         },
+         {
+            "name":"20th Constitutional Ammendment passed",
+            "year":"1933",
+            "significance":"Changes the date on which the terms of the President,Vice President, Senators and Representatives end/begin"
+         },
+         {
+            "name":"21st Constitutional Ammendment passed",
+            "year":"1933",
+            "significance":"Repeals the 18th Amendment and gives the States the power to prohibit or regulate alcohol"
+         },
+         {
+            "name":"Pure Food and Drugs Act",
+            "year":"1906",
+            "significance":"A consumer protection law requiring companies to label active ingredients and uphold purity levels"
+         },
+         {
+            "name":"Sinking of the RMS Lusitania",
+            "year":"1915",
+            "significance":"Turned public opinion against Germany, contributed to the American entry into WWI"
+         },
+         {
+            "name":"Zimmermann Telegram",
+            "year":"1917",
+            "significance":"The coded message instructed Mexico to form military alliance with Germany against the US if it entered WWI"
+         }
+      ]
+
+   },
+
+   "era5": {
+
+      "battles": [
+         {
+            "name":"Action of 12 October 1950",
+            "year":"1950",
+            "location":"Sea of Japan",
+             
+               "victor":"Americans",
+               "loser":"North Koreans"
+            ,
+            "notables":[
+               "Two out of five minesweeping ships in Korean waters sank, one damaged",
+               "American survivors of the sunken ships were fired upon by enemy aircraft until they could be rescued over 4 hours later"
+               ]
+         },
+         {
+            "name":"Battle of Chumonchin Chan",
+            "year":"1950",
+            "location":"Sea of Japan",
+             
+               "victor":"United Nations",
+               "loser":"North Koreans"
+            ,
+            "notables":[
+               "The only major battle fought between surface combatants during the main phase of the Korean War",
+               "3/4 North Korean torpedo and gunboats were destroyed by an Allied flotilla before their torpedoes could be fired"
+               ]
+         },
+         {
+            "name":"Battle of Inchon",
+            "year":"1950",
+            "location":"South Korea",
+             
+               "victor":"United Nations",
+               "loser":"North Koreans"
+            ,
+            "notables":[
+               "The code name for the operation was Operation Chromite",
+               "This amphibious invasion/battle resulted in a decisive victory for the UN, and led to the recapture of Seoul 2 weeks later"
+               ]
+            
+         },
+         {
+            "name":"Attack on the Sui-ho Dam",
+            "year":"1952",
+            "location":"North Korea",
+             
+               "victor":"United Nations",
+               "loser":"Soviet Union and North Koreans"
+            ,
+            "notables":[
+               "Permanently destroyed 90% of the hydroelectric generating facilities struck and knocked out power in North Korea for 2 weeks",
+               "UN forces followed up by targeting smaller power-generating plants to prevent North Koreans from filling the void in power generation"
+               ]
+         },
+         {
+            "name":"Bay of Pigs Invasion",
+            "year":"1961",
+            "location":"Vietnam",
+             
+               "victor":"Cuba",
+               "loser":"Americans"
+            ,
+            "notables":[
+               "The invaders were badly outnumbered by Castro’s troops, and they surrendered after less than 24 hours of fighting",
+               "The failed invasion strengthened the position of Castro's leadership as well as his ties with the USSR"
+            ]
+         },
+         {
+            "name":"Battle of Ap Bac",
+            "year":"1961",
+            "location":"Vietnam",
+             
+               "victor":"Viet Cong",
+               "loser":"Americans, South Vietnamese"
+            ,
+            "notables":[
+               "The battle resulted in heavy casualties on South Vietnamese troops (83 dead and more than 100 wounded)",
+               "It illustrated poor performances in fighting ability/spirit of the South Vietnamese forces in compared to the Viet Cong"
+               ]
+         },
+         {
+            "name":"Battle of la Drang",
+            "year":"1965",
+            "location":"Vietnam",
+             
+               "victor":"Unclear",
+               "loser":"Unclear"
+            ,
+            "notables":[
+               "Battle of Ia Drang was the first major battle between regular U.S. and People’s Army of Vietnam (PAVN) troops",
+               "Set the blueprint for tactics for both sides during the conflict"
+               ]
+         },
+         {
+            "name":"Battle of Khe Sanh",
+            "year":"1968",
+            "location":"Vietnam",
+             
+               "victor":"Unclear",
+               "loser":"Unclear"
+            ,
+            "notables":[
+               "This turned out to be one of the longest and bloodiest battles of the Vietnam War",
+               "Heavy communist casualties and the U.S. had to abandon a key combat base for the first time, but both slides claimed victory"
+               ]
+         },
+         {
+            "name":"The Tet Offensive",
+            "year":"1968",
+            "location":"Vietnam",
+             
+               "victor":"Americans and South Vietnamese",
+               "loser":"Viet Cong and North Vietnamese"
+            ,
+            "notables":[
+               "Despite its surprise and initial success, the communists were quickly repelled within several hours or days",
+               "Shocking the U.S. government and public, it could be seen as a strategic/psychological win against the North Vietnamese"
+               ]
+         },
+         {
+            "name":"Gurf War Air Campaign",
+            "year":"1990",
+            "location":"Kuwait and Iraq",
+             
+               "victor":"Coalition",
+               "loser":"Iraq"
+            ,
+            "notables":[
+               "Arial bombing destroyed Iraq's Air Force, anti-aircraft, command, and communication facilities, and military targets",
+               "U.S. and British special operations forces aided the search for and destruction of Scuds in western Iraq "
+               ]
+         },
+         {
+            "name":"Battle of Khafji",
+            "year":"1991",
+            "location":"Saudi Arabia",
+             
+               "victor":"Coalition",
+               "loser":"Iraq"
+            ,
+            "notables":[
+               "First major ground engagement of the Gulf War and marked the climax of the Coalition's air campaign over Kuwait and Iraq",
+               "Saudi Arabian, Qatari, and Coalition forces successfully attempted to retake control of the city occupied by an Iraqi column"
+               ]
+         }
+      ],
+
+      "inventions": [
+         {
+            "name":"Voyager 1",
+            "year":"1977",
+            "impact": "This craft takes pictures and transmits data back to NASA. It is now approximately 11.5 billion miles away from Earth"
+         },
+         {
+            "name":"Saturn V",
+            "year":"1967",
+            "impact": "This rocket remains literally the heaviest thing that has ever flown"
+         },
+         {
+            "name":"6-axis Stanford Arm",
+            "year":"1969",
+            "impact": "Scheinman invented the first robot designed for computer control, which was later modified into an assembly line machine"
+         },
+         {
+            "name":"LASER",
+            "year":"1960",
+            "impact": "Mainman's invention has a variety of everyday applications, including CDs, DVDs, and surgery, but not as a 'death ray'"
+         }
+      ],
+
+      "elections": [
+         {
+            "name":"Election of 1952",
+            "result":"Republican Eisenhower defeated Democratic Stevenson",
+            "notables":[
+               "Ended 20 consecutive years of Democratic control of the White House",
+               "The winner's campaign slogan, \"I Like Ike,\" was one of the most popular in American history"
+            ]
+         },
+         {
+            "name":"Election of 1956",
+            "result":"Republican Eisenhower defeated Democratic Stevenson",
+            "notables":[
+               "The 1956 election was a rematch of 1952",
+               "This was the last presidential election prior to the statehood of Alaska and Hawai"
+            ]
+         },
+         {
+            "name":"Election of 1960",
+            "result":"Democratic Kennedy defeated Republican Nixon and Democratic Byrd",
+            "notables":[
+               "Historians debate as to whether vote theft in selected states aided Kennedy's victory in this election",
+               "This was the first presidential election in which Alaska and Hawaii participated"
+            ]
+         },
+         {
+            "name":"Election of 1964",
+            "result":"Democratic Johnson defeated Republican Goldwater",
+            "notables":[
+               "The winner claimed his Republican opponent from Arizona wanted to abolish the social welfare programs created in the 1930s",
+               "The losing candidate alienated most moderate Republicans by voting against the Civil Rights Act of 1964"
+            ]
+         },
+         {
+            "name":"Election of 1968",
+            "result":"Republican Nixon defeated Democratic Humphrey and American Independent Wallace",
+            "notables":[
+               "No third-party candidate has won an entire state's electoral votes since Wallace, who was popular in the South",
+               "It was the last election in which two opposing candidates were vice-presidents"
+            ]
+         },
+         {
+            "name":"Election of 1972",
+            "result":"Republican Nixon defeated Democratic McGovern",
+            "notables":[
+               "The losing candidate's platform: immediately ending the Vietnam War and guaranteed minimum incomes for the poor",
+               "The winning candidate received almost 18 million more popular votes than the losing candidate—the widest margin ever"
+            ]
+         },
+         {
+            "name":"Election of 1976",
+            "result":"Democratic Carter defeated Republican Ford",
+            "notables":[
+               "The winning candidate was the first president elected from the Deep South since Zachary Taylor in 1848",
+               "The losing candidate was saddled with a slow economy and paid a political price for his pardon of Nixon"
+            ]
+         },
+         {
+            "name":"Election of 1980",
+            "result":"Republican Reagan defeated Democratic Carter",
+            "notables":[
+               "In the Congressional elections, Republicans won control of the United States Senate for the first time in 28 years",
+               "Independent candidate John B. Anderson received 5,719,437 popular votes, but no Electoral Votes"
+            ]
+         },
+         {
+            "name":"Election of 1984",
+            "result":"Republican Reagan defeated Democratic Mondale",
+            "notables":[
+               "The winning candidate carried 49/50 states, becoming only the second president to do so after Nixon in 1972",
+               "The Republican's campaign used \"Born in the U.S.A.\" as a campaign song, without permission, until the song's Democratic creator insisted they stop",
+               "The winning candidate's 525 electoral votes is the highest total ever received by a presidential candidate"
+            ]
+         },
+         {
+            "name":"Election of 1988",
+            "result":"Republican Bush defeated Democratic Dukakis",
+            "notables":[
+               "The winning candidate became the first incumbent Vice President to win a presidential election in 152 years",
+               "False rumors about the losing candidate circulated the media, such as a mental illness, and his wife burned an a flag to protest the Vietnam War"
+            ]
+         },
+         {
+            "name":"Election of 1992",
+            "result":"Democratic Clinton defeated Republican Bush",
+            "notables":[
+               "Independent candidate Perot received 19,741,065 votes, most ever for a 3rd party candidate, but no Electoral Votes",
+               "The losing candidate had alienated much of his conservative base by breaking his 1988 campaign pledge against raising taxes"
+            ]
+         },
+         {
+            "name":"Election of 1996",
+            "result":"Democratic Clinton defeated Republican Dole",
+            "notables":[
+               "The winning candidate benefited from an economy which recovered from the early 1990s recession",
+               "The 73-year-old losing candidate appeared old and frail, especially when he fell off a stage during a campaign event"
+            ]
+         }
+
+      ],
+
+      "court":[
+         {
+            "name":"Brown v. Board of Education",
+            "year":"1954",
+            "ruling":"In the field of public education, the doctrine of ‘separate but equal’ has no place."
+         },
+         {
+            "name":"Napp v. Ohio",
+            "year":"1961",
+            "ruling":"Evidence that is illegally obtained by the state may not be used against a defendant in court"
+         },
+         {
+            "name":"Baker v. Carr",
+            "year":"1962",
+            "ruling":"Voting districts cannot be drawn in such a way that they violate the Equal Protection clause of the 14th Amendment"
+         },
+         {
+            "name":"Engel v. Vitale",
+            "year":"1962",
+            "ruling":"Public institutions (i.e., a school system) cannot require prayer"
+         },
+         {
+            "name":"Gideon v. Wainwright",
+            "year":"1963",
+            "ruling":"Defendants in criminal cases have an absolute right to counsel"
+         },
+         {
+            "name":"Miranda v. Arizona",
+            "year":"1966",
+            "ruling":"You have the right to remain silent"
+         }
+         
+      ],
+
+      "other": [
+         {
+            "name":"22nd Constitutional Amendment Passed",
+            "year":"1951",
+            "significance":"Set presidential term limits"
+         },
+         {
+            "name":"Montgomery Bus Boycott",
+            "year":"1955",
+            "significance":"Sparked the American Civil Rights movement"
+         },
+         {
+            "name":"Embargo on Cuba",
+            "year":"1960",
+            "significance":"Maintained sanctions on Cuba if the Cuban government refused democratization and disresepcted human rights"
+         },
+         {
+            "name":"Watergate Scandal",
+            "year":"1973",
+            "significance":"D.C. and President Nixon's administration's attempted cover-up of its involvement led to the discovery of multiple abuses of their power"
+         },
+         
+         {
+            "name":"23rd Constitutional Ammendment passed",
+            "year":"1961",
+            "significance":"Grants the District of Columbia electors (the number equal to the least populous state) in the Electoral College."
+         },
+         {
+            "name":"24th Constitutional Ammendment passed",
+            "year":"1964",
+            "significance":"Prohibits the revocation of voting rights due to the non-payment of a poll tax or any other tax"
+         },
+         {
+            "name":"25th Constitutional Ammendment passed",
+            "year":"1967",
+            "significance":"Addresses succession to the Presidency, filling a vacancy in the office of the Vice President, and Presidential disabilities"
+         },
+         {
+            "name":"26th Constitutional Ammendment passed",
+            "year":"1971",
+            "significance":"Prohibits the denial of the right of US citizens, eighteen years of age or older, to vote on account of age"
+         },
+         {
+            "name":"27th Constitutional Ammendment passed",
+            "year":"1992",
+            "significance":"Delays laws affecting Congressional salary from taking effect until after the next election of representatives"
+         }
+
+      ]
+
+   }
+
+}

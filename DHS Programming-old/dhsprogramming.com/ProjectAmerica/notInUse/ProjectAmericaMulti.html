@@ -1,0 +1,86 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Project America</title>
+  <meta name="description" content="The only way to learn US History.">
+  <link rel="stylesheet" href="css/AmericaStyleMulti.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <script src="js/client.js"></script>
+</head>
+
+<body>
+    <div class="mainContainer">
+
+      <div class="screen" id="usernameScreen">
+	  <h1 id="title">Project America</h1>
+	  
+	  <div class="option">
+	    Username:
+	    <input class="text-input" id="username"></input>
+	  </div>
+
+	  <div class="option-spacer"></div>
+
+
+	  <div class="option-spacer"></div>
+
+	  <div class="button-option" id="connectButton">
+	    Connect
+	  </div>
+      </div>
+
+      <div class="screen hidden" id="multiplayerScreen">
+	  <h1 id="title">Multiplayer</h1>
+
+	  <div class="button-option" id="createScreenButton">
+	    Create A Game
+	  </div>
+	  <div class="option-spacer"></div>
+	  <div class="button-option" id="joinScreenButton">
+	    Join A Game
+	  </div>
+	  <div class="option-spacer"></div>
+	  <div class="button-option" id="multiplayerBack">
+	    Back
+	  </div>
+      </div>
+
+      <div class="screen hidden" id="joinScreen">
+	  <h1 id="title">Join A Game</h1>
+	  <div class="button-option" id="joinBack">
+	    Back
+	  </div>
+      </div>
+
+      <div class="screen hidden" id="createScreen">
+	  <h1 id="title">Create A Game</h1>
+
+	  <div class="container-option" id="sectionsOptions">
+	    <h2>Sections</h2>
+	    <div id="sections">
+	    </div>
+	  </div>
+	  <div class="option-spacer"></div>
+	  <div class="container-option" id="typesOptions">
+	    <h2>Question Types</h2>
+	    <div id="types">
+	    </div>
+	  </div>
+	  <div class="option-spacer"></div>
+	  <div class="button-option" id="createButton">
+	    Create
+	  </div>
+	  <div class="option-spacer"></div>
+	  <div class="button-option" id="createBack">
+	    Back
+	  </div>
+      </div>
+      <script src="js/gameControl.js"></script>
+    </div>
+</body>
+</html>

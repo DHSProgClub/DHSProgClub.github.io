@@ -1,0 +1,109 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Project America</title>
+  <meta name="description" content="The only way to learn US History.">
+  <link rel="stylesheet" href="css/OptionsStyle.css">
+
+</head>
+
+<body>
+<div class = "mainContainer">
+	<h1 id = "title">Project America</h1>
+
+    <div class = "settings">
+        
+        <label class = "settingsHeader">Event Types?</label><br>
+        
+        <label>Battles <input type = "checkbox" class = "eventOption" id = "battles" checked = true></label><br>
+
+        <label>Inventions <input type = "checkbox" class = "eventOption" id = "inventions" checked = true></label><br>
+
+        <label>Elections <input type = "checkbox" class = "eventOption" id = "elections" checked = true></label><br>
+
+        <label>Court Cases <input type = "checkbox" class = "eventOption" id = "court" checked = true></label><br>
+
+        <label>Other <input type = "checkbox" class = "eventOption" id = "other" checked = true></label><br></br>
+        
+    <label class = "settingsHeader">Game Length?</label><br>
+        <form action = "" id = "lengthForm">
+            <label>Quick<input type = "radio" name = "length" class "lengthOption" value = "quick"></label><br>
+            <label>Medium<input type = "radio" name = "length" class "lengthOption" value = "medium" checked></label><br>
+            <label>Long<input type = "radio" name = "length" class "lengthOption" value = "long"></label><br>
+            <label>50 Years (of History)<input type = "radio" name = "length" class "lengthOption" value = "all"></label><br>
+        </form>
+    </div>
+        
+    <div class = "goButton">
+        <p class = "goText">Start</p>
+    </div>
+    
+<div class ="game" hidden>
+<div class = "topContainer">
+	<div class = "score">
+		<p class = "scoreText">Score: 42</p>
+	</div>
+	
+	<div class = "time">
+		<p class = "timeText">Time: 9000</p>
+	</div>
+    
+</div>
+
+<div class = "answersContainer">
+
+	<div class = "optionA option correct" id = "a1">
+		<p class = "optionText">Correct Answer Q1</p>
+	</div>
+	
+	<div class = "optionA option" id = "a2">
+		<p class = "optionText">Wrong Answer Q1</p>
+	</div>
+	
+	<div class = "optionA option" id = "a3">
+		<p class = "optionText">Wrong Answer Q1</p>
+	</div>
+	
+	<div class = "optionA option" id = "a4">
+		<p class = "optionText">Wrong Answer Q1</p>
+	</div>
+	
+	<div class = "optionB option correct" id = "b1">
+		<p class = "optionText">Correct Answer Q2</p>
+	</div>
+	
+	<div class = "optionB option" id = "b2">
+		<p class = "optionText">Wrong Answer Q2</p>
+	</div>
+	 
+	<div class = "optionB option" id = "b3">
+		<p class = "optionText">Wrong Answer Q2</p>
+	</div>
+	
+	<div class = "optionB option" id = "b4">
+		<p class = "optionText">Wrong Answer Q2</p>
+	</div>
+
+</div>
+
+<div class = "bottomContainer">
+    
+    <table>
+    <tr>
+	   <td class = "question1"> <p class = "questionText">What is America?</p></td>
+	   <td class ="answer1"> <div class ="answerBox answerBox1"> </div></td>
+	   <td class = "question2"><p class = "questionText">Why a bald eagle?</td>
+	    <td class ="answer2"> <div class ="answerBox answerBox2"> </div></td>
+    </tr>
+    </table>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="js/gameScript.js"></script>
+</div>
+</body>
+</html>
